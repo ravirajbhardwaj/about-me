@@ -5,6 +5,9 @@
   "scripts": {
     "start": "node index.js"
   },
+  "bin": {
+    "about-me": "index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ravirajbhardwaj/about-me.git"
@@ -17,7 +20,7 @@
     "url": "https://github.com/ravirajbhardwaj/about-me/issues"
   },
   "homepage": "https://github.com/ravirajbhardwaj/about-me#readme",
-  "description": "A little package [ npx @raviraj/about-me ] the prints some about me information",
+  "description": "A little package [ npx @raviraaj/about-me ] the prints some about me information",
   "publishConfig": {
     "access": "public"
   },
